@@ -9,7 +9,7 @@ import Hero from '../sections/meinSection/Hero.vue'
 export default {
     name: 'Main',
     components:{
-        Hero
+        Hero,
     }
 }
 </script>
