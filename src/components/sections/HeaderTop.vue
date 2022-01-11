@@ -5,10 +5,10 @@
           <li><a href="#"><i class="fas fa-phone"></i> 1.800.567.8910 <span>24hrs</span></a></li>
           <li><a href="#"><i class="fas fa-envelope"></i> Contac Us</a></li>
           <li><a href="#"><i class="fas fa-graduation-cap"></i> Alumni</a></li>
-          <li><a href="#"><i class="fas fa-university"></i> campus</a></li>
+          <li><a href="#"><i class="fas fa-university"></i> Campus</a></li>
         </ul>
         <ul > 
-          <li v-for="(icon, index) in icons" :key="index">
+          <li v-for="(icon, index) in social" :key="index">
             <a href="#">
               <i :class=icon></i>
             </a>
@@ -23,7 +23,7 @@ export default {
     name: 'HeaderTop',
     data(){
       return{
-        icons: [
+        social: [
           'fab fa-facebook-f',
           'fab fa-instagram',
           'fab fa-youtube',
@@ -36,34 +36,28 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/style/partials/variables.scss';
-  section{
-    background-color: $first-color;
+section{
+  background-color: $first-color;
 
-    .container{
-    font-size: 14px;
+  .container{
+    font-size: 12px;
     height: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
-    ul{
-      display: flex;
-      justify-content: space-around;
+    li{
+      padding: 0 15px;
+      display: inline-block;
+      a{
+        color: white;
 
-      li{
-        padding: 0 15px;
-        a{
-          color: white;
-
-          span{
-            font-size: 10px;
-            padding: 3px;
-            position: relative;
-            top: -1px;
-          }
+        span{
+          opacity: 0.5;
+          background-color: black;
         }
       }
     }
   }
-  }
+}
 </style>
