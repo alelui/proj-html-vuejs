@@ -36,7 +36,7 @@ export default {
         margin: 70px 0 30px;
     }
     p{
-        color: #94979f;
+        color: $third-color;
         margin: 30px 0;
     }
     hr{
@@ -65,6 +65,5 @@ export default {
             width: 70%;
         }
     }
-    // background-color: $second-color;
 }
 </style>
