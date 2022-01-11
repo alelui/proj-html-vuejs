@@ -34,7 +34,8 @@ section{
 
   .container{
     font-size: 12px;
-    height: 50px;
+    // height: 50px;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;

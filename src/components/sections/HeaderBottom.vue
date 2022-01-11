@@ -29,7 +29,7 @@ export default {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 30px auto;
+        margin: 25px auto;
         font-size: 14px;
 
         li:first-child a {

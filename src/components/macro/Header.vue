@@ -40,8 +40,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-    h2{
-        color: blue;
-    }
+header{
+    height: 200px;
+}
 </style>
