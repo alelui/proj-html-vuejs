@@ -8,9 +8,9 @@
           <li><a href="#"><i class="fas fa-university"></i> Campus</a></li>
         </ul>
         <ul > 
-          <li v-for="(icon, index) in social" :key="index">
-            <a href="#">
-              <i :class=icon></i>
+          <li v-for="(icon, index) in socialIcons" :key="index">
+            <a :href=icon.url>
+              <i :class=icon.icon></i>
             </a>
           </li>
         </ul>
@@ -21,15 +21,8 @@
 <script>
 export default {
     name: 'HeaderTop',
-    data(){
-      return{
-        social: [
-          'fab fa-facebook-f',
-          'fab fa-instagram',
-          'fab fa-youtube',
-          'fab fa-twitter',
-        ],
-      }
+    props: {
+        socialIcons: Array,
     }
 }
 </script>
@@ -46,12 +39,15 @@ section{
     justify-content: space-between;
     align-items: center;
 
+    ul:last-child{
+      font-size: 20px;
+    }
+
     li{
       padding: 0 15px;
       display: inline-block;
       a{
         color: white;
-
         span{
           opacity: 0.5;
           background-color: black;
