@@ -14,7 +14,7 @@
 
                 </div>
                 <div class="about-main__video">
-                    <img src="../../../assets/images/business_seminar_event_feat-600x402.jpg" alt="">
+                    <img src="https://i.vimeocdn.com/video/456609510-6bc9e6bd994d9021f451c949b08f0a53bc9751c4e0cad3da68547008aed4be25-d_500x281" alt="">
                 </div>
             </div>
         </div>

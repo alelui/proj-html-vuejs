@@ -25,11 +25,14 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/style/partials/variables.scss';
+section{
+     background-color: white;
+
     .container{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 25px auto;
+        padding: 25px 0;
         font-size: 14px;
 
         li:first-child a {
@@ -49,4 +52,5 @@ export default {
             }
         }
     }
+}
 </style>

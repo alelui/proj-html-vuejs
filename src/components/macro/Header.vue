@@ -66,5 +66,8 @@ export default {
 <style lang="scss" scoped>
 header{
     height: 200px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 </style>

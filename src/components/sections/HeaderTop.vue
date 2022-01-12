@@ -55,7 +55,7 @@ section{
       display: inline-block;
       a{
         color: white;
-        span.label{
+        ::v-deep .label{
           opacity: 0.5;
           background-color: black;
         }
