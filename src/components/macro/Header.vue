@@ -1,6 +1,6 @@
 <template>
     <header>
-        <HeaderTop :socialIcons="social"/>
+        <HeaderTop :socialIcons="social" :contacts="contacts"/>
         <HeaderBottom/>
     </header>
 </template>
@@ -33,7 +33,31 @@ export default {
                     icon:'fab fa-twitter',
                     url:'#',
                 },
-            ]
+            ],
+            contacts: [
+                {
+                    url:'#',
+                    icon:'fas fa-phone',
+                    text:'1.800.567.8910',
+                    label:'<span class="label">24hrs</span>'
+                },
+                {
+                    url:'#',
+                    icon:'fas fa-envelope',
+                    text:'Contac Us'
+                },
+                {
+                    url:'#',
+                    icon:'fas fa-graduation-cap',
+                    text:'Alumni'
+                },
+                {
+                    url:'#',
+                    icon:'fas fa-university',
+                    text:'Campus'
+                },
+                
+            ],
         }
     }
 }
