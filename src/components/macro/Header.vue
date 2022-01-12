@@ -1,7 +1,7 @@
 <template>
     <header>
         <HeaderTop :socialIcons="social" :contacts="contacts"/>
-        <HeaderBottom/>
+        <HeaderBottom :navMenu="navMenu"/>
     </header>
 </template>
 
@@ -58,6 +58,38 @@ export default {
                 },
                 
             ],
+            navMenu: [
+                {
+                    url:'#',
+                    text:'home'
+                },
+                {
+                    url:'#',
+                    text:'about'
+                },
+                {
+                    url:'#',
+                    text:'coursese',
+                    label:'<span class="label">new</span>'
+                },
+                {
+                    url:'#',
+                    text:'events'
+                },
+                {
+                    url:'#',
+                    text:'facilities'
+                },
+                {
+                    url:'#',
+                    text:'news'
+                },
+                {
+                    url:'#',
+                    text:'adminissions',
+                    label:'<span class="label">applay</span>'
+                },
+            ]
         }
     }
 }

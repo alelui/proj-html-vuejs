@@ -5,13 +5,18 @@
               <img src="../../assets/images/university_logo.png" alt="">
           </div>
           <ul>
-              <li><a href="#">home</a></li>
+            <li v-for="(nav, index) in navMenu" :key="index">
+                <a :href=nav.url>{{nav.text}} 
+                      <span v-html="nav.label"></span>
+                </a>
+            </li>
+              <!-- <li><a href="#">home</a></li>
               <li><a href="#">about</a></li>
               <li><a href="#">coursese <span>new</span></a></li>
               <li><a href="#">events</a></li>
               <li><a href="#">facilities</a></li>
               <li><a href="#">news</a></li>
-              <li><a href="#">adminissions <span>applay</span></a></li>
+              <li><a href="#">adminissions <span>applay</span></a></li> -->
           </ul>
       </div>
   </section>
@@ -19,7 +24,10 @@
 
 <script>
 export default {
-    name: 'HeaderBottom'
+    name: 'HeaderBottom',
+    props:{
+        navMenu:Array
+    }
 }
 </script>
 
@@ -45,7 +53,7 @@ section{
             a{
                 text-transform: uppercase;
                 color: black;
-                span{
+                ::v-deep .label{
                     color: white;
                     background-color: $second-color;
                 }
