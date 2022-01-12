@@ -4,9 +4,11 @@
             <div class="f__world-class">
                 <h2>world class facilities</h2>
                 <span>Avada university is devoteted to excellence in teachin, in learning, reaserching, and developing leaders in differents disciplines who make a difference globally</span>
-                <p><i class="fas fa-globe"></i><strong>International Focus</strong> - our students come fromo across the globe</p>
-                <p><i class="fas fa-globe"></i><strong>International Focus</strong> - our students come fromo across the globe</p>
-                <p><i class="fas fa-globe"></i><strong>International Focus</strong> - our students come fromo across the globe</p>
+                <div class="f__world-class__main-text">
+                    <p><i class="fas fa-globe"></i><strong>International Focus</strong> - our students come fromo across the globe</p>
+                    <p><i class="fas fa-graduation-cap"></i><strong>Residential Coursese</strong> - we encourage learning and grown</p>
+                    <p><i class="far fa-address-book"></i><strong>Popple not profits</strong> - education is a righht not a privilage</p>
+                </div>
                 <span>Avada university is devoteted to excellence in teachin, in learning, reaserching, and developing leaders in differents disciplines who make a difference globally</span>
                 <p><strong></strong></p>
                 <p><strong></strong></p>
@@ -36,27 +38,30 @@ export default {
 
     .container{
         display: flex;
-        line-height: 30px;
+        
 
-        // .f__world-class,
-        // .f__values{
-        //     width: 50%;
-        // }
+        .f__world-class,
+        .f__values{
+            margin: 100px 0;
+        }
         .f__world-class{
             width: 55%;
+            line-height: 30px;
             h2{
                 text-transform: uppercase;
             }
             span{
                 display: inline-block;
                 width: 90%;
-                font-size: 10px;
+                font-size: 12px;
+                line-height: 25px;
             }
-            p{
-                font-size: 16px;
-                .fa-globe{
-                    margin: 0 6px;
-                }
+            &__main-text{
+                margin: 30px 0;
+            }
+            .fa-globe, .fa-graduation-cap, .fa-address-book{
+                color: $first-color;
+                margin: 0 6px;
             }
         }
 
@@ -68,6 +73,7 @@ export default {
               padding: 10px 20px;
               margin: 10px 0;
               color: $first-color;
+              cursor: pointer;
               
               .fa-plus{
                   margin: 0 15px;

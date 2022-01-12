@@ -3,6 +3,7 @@
         <Hero/>
         <About/>
         <Facilities/>
+        <Events/>
     </main>
 </template>
 
@@ -10,12 +11,14 @@
 import Hero from '../sections/meinSection/Hero.vue'
 import About from '../sections/meinSection/About.vue'
 import Facilities from '../sections/meinSection/Facilities.vue'
+import Events from '../sections/meinSection/Events.vue'
 export default {
     name: 'Main',
     components:{
         Hero,
         About,
-        Facilities
+        Facilities,
+        Events
     }
 }
 </script>

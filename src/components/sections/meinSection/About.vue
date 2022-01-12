@@ -9,7 +9,7 @@
             <div class="about-main">
                 <div class="about-main__text">
                     <h2>why chose avanda university</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in odio, esse iste hic tenetur excepturi amet sit, eveniet accusamus iure commodi libero consequatur sed dolores ratione soluta odit eligendi!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, praesentium quibusdam? Fugiat ullam corporis libero perferendis molestiae quia maiores rerum, ipsum beatae assumenda ducimus qui, facilis recusandae, illum veniam. Eius! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in odio, esse iste hic tenetur excepturi amet sit, eveniet accusamus iure commodi libero consequatur sed dolores ratione soluta odit eligendi!</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in odio, esse iste hic tenetur excepturi amet sit, eveniet accusamus iure commodi libero consequatur sed dolores ratione soluta odit eligendi!</p>                            
 
                 </div>
@@ -30,6 +30,9 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../../assets/style/partials/variables.scss';
+#about{
+    margin-bottom: 200px;
+}
 .about-title{
     text-align: center;
     .logo{

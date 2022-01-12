@@ -9,10 +9,6 @@
               <span v-html="contact.label"></span>
               </a>
             </li>
-          <!-- <li><a href="#"><i class="fas fa-phone"></i> 1.800.567.8910 <span>24hrs</span></a></li>
-          <li><a href="#"><i class="fas fa-envelope"></i> Contac Us</a></li>
-          <li><a href="#"><i class="fas fa-graduation-cap"></i> Alumni</a></li>
-          <li><a href="#"><i class="fas fa-university"></i> Campus</a></li> -->
         </ul>
         <ul > 
           <li v-for="(icon, index) in socialIcons" :key="index">
