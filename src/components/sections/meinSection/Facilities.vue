@@ -34,7 +34,7 @@ export default {
 <style lang="scss" scoped>
 #facilities{
     @import '../../../assets/style/partials/variables.scss';
-    background-color: #f7f5f4;
+    background-color: $bg-color-one;
 
     .container{
         display: flex;
