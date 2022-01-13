@@ -5,6 +5,7 @@
         <Facilities/>
         <Events/>
         <News/>
+        <Form/>
     </main>
 </template>
 
@@ -14,6 +15,7 @@ import About from '../sections/meinSection/About.vue'
 import Facilities from '../sections/meinSection/Facilities.vue'
 import Events from '../sections/meinSection/Events.vue'
 import News from '../sections/meinSection/News.vue'
+import Form from '../sections/meinSection/Form.vue'
 export default {
     name: 'Main',
     components:{
@@ -22,6 +24,7 @@ export default {
         Facilities,
         Events,
         News,
+        Form
     }
 }
 </script>

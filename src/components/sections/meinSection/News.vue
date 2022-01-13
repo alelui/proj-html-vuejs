@@ -73,7 +73,6 @@ export default {
 <style lang="scss" scoped>
 @import '../../../assets/style/partials/variables.scss';
 #news{
-    margin-bottom: 200px;
     background-color: $bg-color-one;
 }
 .news-title{
