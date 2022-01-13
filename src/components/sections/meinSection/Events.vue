@@ -65,7 +65,7 @@ export default {
     }
     .event-box:hover{
         background-size: cover;
-        scale: 1.3;
+        scale: 1.2;
     }
     .one{
         background-image: url('../../../assets/images/home_courses_section_bg.jpg');
