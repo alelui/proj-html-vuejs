@@ -59,7 +59,33 @@
             <li>Carrresrs</li>
         </ul>
       </div>
-      <div class="footer-box"></div>
+      <div class="footer-box">
+          <h3>UPCOMING EVENTS</h3>
+            <div class="events">
+                <div class="calendar-box">
+                    <div class="calendar">
+                        <h4>Jun</h4>
+                    </div>
+                    <p>09</p>
+                </div>
+                <div class="textC">
+                    <h1>Business Seminar</h1>
+                    <p>July 1 @ 8:00 am - 5:00 pm United States</p>
+                </div>
+            </div>
+            <div class="events">
+                <section class="calendar-box">
+                    <div class="calendar">
+                        <h4>Jun</h4>
+                    </div>
+                    <p>09</p>
+                </section>
+                <section class="textC">
+                    <h1>Student Fund Raiser</h1>
+                    <p> September 9 @ 8:00 am - September 10 @ 5:00 pm United Kingdom</p>
+                </section>
+            </div>
+      </div>
   </section>
 </template>
 
@@ -87,7 +113,7 @@ export default {
             margin: 20px 0;
         }
 
-        div:nth-of-type(1){
+        div:first-child{
             div{
                 display: flex;
                 .fa-home, .fa-clock{
@@ -109,9 +135,38 @@ export default {
             margin-bottom: 30px;
             }
         }
-        div:nth-of-type(3) {flex-grow: 1;}
-        div:nth-of-type(4) {flex-grow: 1.3;}
-        div:nth-of-type(5) {flex-grow: 1.8;}
+        // div:nth-of-type(3) {flex-grow: 1;}
+        // div:nth-of-type(4) {flex-grow: 1.3;}
+        div:nth-of-type(5) {
+            height: 100%;
+            .events{
+                display: flex;
+                margin: 40px 0;
+                .calendar-box{
+                    text-align: center;
+                    height: 70px;
+                    width: 50px;
+                    background-color: $first-color;
+                    padding: 5px;
+                    line-height: 23px;
+                    p{
+                        color: white;
+                    }
+                    .calendar{
+                        padding: 6px;
+                        height: 70%;
+                        width: 90%;
+                        background-color: #eef0f2;
+                        margin: 0 auto;              
+                    }
+                }
+                .textC{
+                    font-size: 10px;
+                    padding: 2px 10px;
+                    line-height: 15px;
+                }
+            }
+        }
         .footer-box{
             width: 20%;
             height: 100%;
