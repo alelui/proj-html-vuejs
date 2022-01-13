@@ -98,7 +98,6 @@ export default {
 <style lang="scss" scoped>
 @import '../../assets/style/partials/variables.scss';
     #footer-top{
-        height: 500px;
         width: 100%;
         display: flex;
         background-image: url('../../assets/images/university_ft_bg.png');
@@ -170,7 +169,6 @@ export default {
         .footer-box{
             width: 20%;
             height: 100%;
-            border: 1px solid black;
             padding: 10px;
             line-height: 25px;
         }
