@@ -1,17 +1,19 @@
 <template>
     <footer>
-        <h4>Harry Footer</h4>
+        <FooterTop/>
     </footer>
 </template>
 
 <script>
+import FooterTop from '../sections/FooterTop.vue'
 export default {
-    name: 'Footer'
+    name: 'Footer',
+    components:{
+        FooterTop,
+    },
 }
+
 </script>
 
 <style lang="scss" scoped>
-    h4{
-        color: orange;
-    }
 </style>

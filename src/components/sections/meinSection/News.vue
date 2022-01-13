@@ -3,8 +3,8 @@
       <div class="container">
         <div class="news-title">
             <img class="logo" src="../../../assets/images/page-logo-1.png" alt="">
-            <h2>Inspired By Excellence & Innovation</h2>
-            <p>We offere a wide range of hight quality of teaching and extra-curricula activities.</p>
+            <h2>Today’s Univeristy News</h2>
+            <p>Covering topics from classes to politics and student organization events.</p>
             <hr>
             <div class="news-main">
                 <div class="box-news">
@@ -109,7 +109,7 @@ export default {
             }
             &__title{
                 h2{
-                    margin: 20px 0 5px;
+                    margin: 20px 0;
                     font-size: 20px;
                 }
                 p{
