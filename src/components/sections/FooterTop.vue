@@ -141,6 +141,8 @@ export default {
             .events{
                 display: flex;
                 margin: 40px 0;
+                padding-bottom: 20px;
+                border-bottom: 1px solid #e7e4e2;
                 .calendar-box{
                     text-align: center;
                     height: 70px;
